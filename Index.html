@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subha's Mehndi Design</title>
+    <style>
+        /* Color scheme */
+        :root {
+            --primary-color: #8B4513;  /* SaddleBrown */
+            --secondary-color: #FFD700;  /* Gold */
+            --background-color: #FFF8DC;  /* Cornsilk */
+            --text-color: #4A4A4A;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .vlog {
+            margin-bottom: 2rem;
+        }
+
+        .vlog video {
+            width: 100%;
+            max-width: 800px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Subha's Mehndi Design</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#vlogs">Vlogs</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to Subha's Mehndi Design</h2>
+            <p>Discover the beauty of traditional and modern mehndi designs. Book our services for your special occasions!</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <!-- Add your mehndi design images here -->
+                <img src="mehndi1.jpg" alt="Mehndi Design 1">
+                <img src="mehndi2.jpg" alt="Mehndi Design 2">
+                <img src="mehndi3.jpg" alt="Mehndi Design 3">
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+        <section id="vlogs">
+            <h2>Vlogs</h2>
+            <div class="vlog">
+                <!-- Add your vlog videos here -->
+                <video controls>
+                    <source src="vlog1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <!-- Add your event listings here -->
+            <ul>
+                <li>Bridal Mehndi Workshop - May 15, 2023</li>
+                <li>Eid Mehndi Celebration - June 10, 2023</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Subha's Mehndi Design. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+This template provides a basic structure for Subha's Mehndi Design website. It includes sections for a gallery, vlogs, events, and a contact form. The color scheme is inspired by traditional mehndi colors, using shades of brown and gold. The layout is responsive and should work well on various screen sizes.
+
+To use this template:
+
+Remember to test the website on different devices and browsers to ensure compatibility and responsiveness.
